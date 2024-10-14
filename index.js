@@ -12,7 +12,7 @@ const mediaRoutes = require("./routes/media");
 app.use("/api/v1/media", mediaRoutes);
 app.use("/public", express.static(path.join(__dirname, "public")));
 
-const mongodbUri = "mongodb+srv://foodly:000999888@foodly.ymainld.mongodb.net/Youtube";
+const mongodbUri = "";
 
 mongoose.connect(mongodbUri, {
   useNewUrlParser: true,
